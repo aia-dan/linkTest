@@ -1,0 +1,25 @@
+.alpha{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.bravo{
+    width: 75%;
+    text-align: center;
+}
+
+.button{
+    padding: 5px;
+    color: white;
+}
+
+.good-button{
+    padding: 5px;
+    background-color: lightgreen;
+}

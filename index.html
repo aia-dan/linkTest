@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link testing</title>
+    <link rel="stylesheet" href="show.css">
+</head>
+<body>
+    <div class="alpha">
+        <div class="bravo">
+            <h1>testing form filling with link URLs</h1>
+            <a id="static" class="good-button" href="https://u15.e62.myftpupload.com/form-test/?first_name=GoodFriend&last_name=ToAll&email=test@example.org&phone=(440)5555555&reservation=Phone&time=7:00pm">static link</a>
+            <br><br>
+            <div>
+                <p>List of possible variables: first_name, last_name, email, phone, reservation, time</p>
+                <p>NOTE: reservation can only take "Phone" and "Email"</p>
+                <p>NOTE: time can only take times in the list</p>
+                <br>
+                <label for="form">form value to change</label>
+                <input type="text" id="form" name="form">
+                <br><br>
+                <label for="value_1">value</label>
+                <input type="text" id="value_1" name="form">
+                <br>
+                <br>
+                <a id="submit_button" class="good-button" href="#">submit</a>
+                <a id="dynamic" class="button" href="#">dynamic link</a>
+            </div>
+            <br>
+            <br>
+            <a href="https://u15.e62.myftpupload.com/form-test/">link to form without submission</a>
+        </div>
+    </div>
+
+    <!-- UTILITY -->
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <!-- JS -->
+    <script type="text/javascript" src="do.js"></script>
+</body>
+</html>
