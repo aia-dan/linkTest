@@ -23,3 +23,8 @@
     padding: 5px;
     background-color: lightgreen;
 }
+
+.good-button:hover{
+    padding: 5px;
+    background-color: greenyellow;
+}
